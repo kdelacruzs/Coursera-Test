@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+
+#caja{
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+#caja #title1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    text-align: center;
+    right: -85%;
+    background-color: #D59898;
+    border: 1px solid black;
+}
+
+#caja #title2 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    color: #FFFFFF;
+    text-align: center;
+    right: -85%;
+    background-color: #C14543;
+    border: 1px solid black;
+}
+
+#caja #title3 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    text-align: center;
+    right: -85%;
+    background-color: #E5D198;
+    border: 1px solid black;
+}
+
+.widgets > div {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 501px) and (max-width: 991px) {
+
+    #caja #title1{
+        width: 40%;
+        right: -70%;
+    }
+
+    #caja #title2{
+        width: 40%;
+        right: -70%;
+    }
+
+    #caja #title3{
+        width: 20%;
+        right: -84%;
+    }
+}
+
+
+@media (min-width: 399px)  and (max-width: 500px) {
+
+    #caja #title1{
+        width: 20%;
+        right: -84%;
+    }
+
+    #caja #title2{
+        width: 20%;
+        right: -84%;
+    }
+
+    #caja #title3{
+        width: 20%;
+        right: -84%;
+    }
+}
